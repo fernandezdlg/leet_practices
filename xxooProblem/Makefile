@@ -4,7 +4,7 @@ CXXFLAGS = -std=c++23 -stdlib=libc++ -O2 -Wextra -Wpedantic
 EXTRA =
 LIBS = -L/opt/homebrew/opt/llvm/lib/c++ -Wl,-rpath,/opt/homebrew/opt/llvm/lib/c++
 INCLUDE = -I.
-targets = main
+targets = main series periodic
 
 all: $(targets)
 
